@@ -28,7 +28,7 @@ ul li a:hover{
 
 .info{
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .info h1{
@@ -81,4 +81,21 @@ ul li a:hover{
 
 .image:hover .person{
     left: 55%;
+}
+
+.icons a{
+    text-decoration: 7%;
+    color: white;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: white;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: orange;
 }
