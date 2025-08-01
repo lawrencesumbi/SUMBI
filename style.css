@@ -5,13 +5,13 @@ ul{margin-top: -4%;}
 ul li{list-style: none; display: inline-block; padding: 10px 16px;}
 ul li a{font-size: 16px; font-weight: bold; text-decoration: none; color: white; margin-top: -3%; transition: .4s ease;}
 ul li a:hover{color: orange;}
-.info{margin-left: 7%; margin-top: 7%;}
+.info{margin-left: 5%; margin-top: 7%;}
 .info h1{font-size: 65px; color: white;}
 .info h2{font-size: 18px; letter-spacing: 1px; line-height: 24px;color: white;}
 .info span{color: orange;}
 .info a{text-decoration: none;color: white;background: black;margin: 26px 0;padding: 10px 18px;border-radius: 10px;display: inline-block;transition: .4s ease;}
 .info a:hover{background: purple;}
-.image{width: 30%;height: 60%;position: absolute;right: 100px;bottom: 0;}
+.image{width: 30%;height: 60%;position: absolute;right: 90px;bottom: 0;}
 .image img{position: absolute;height: 140%;left: 40%;transform: translate(-50%);bottom: 0;transition: left 2s ease;}
 .image:hover .person{left: 55%;}
 .icons a{text-decoration: 7%;color: white;}
@@ -22,31 +22,6 @@ ul li a:hover{color: orange;}
 .about{margin-left: 50%;margin-right: 7%;}
 .about h1{font-size: 45px;color: orange;}
 .about h2{font-size: 18px;letter-spacing: 1px;line-height: 24px;color: white;text-align: justify;}
-
-.squares-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.square {
-    background-color: orange;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: sans-serif;
-    padding: 10px;
-    box-shadow: 2px 2px 10px orange;
-    transition: transform 0.3s ease;
-    border-radius: 20px;
-}
-
-.square:hover {
-    transform: scale(1.05);
-}
+.squares-container {display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px; max-width: 1200px; margin: 0 auto;}
+.square {background-color: orange; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; padding: 10px; box-shadow: 2px 2px 10px orange; transition: transform 0.3s ease; border-radius: 20px}
+.square:hover {transform: scale(1.05);}
