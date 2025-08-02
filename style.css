@@ -26,14 +26,49 @@ ul li a:hover{color: orange;}
 .squares-container {display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px; max-width: 1200px; margin: 0 auto;}
 .square {background-color: orange; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; padding: 10px; box-shadow: 2px 2px 10px orange; transition: transform 0.3s ease; border-radius: 20px}
 .square:hover {transform: scale(1.05);}
+.project{display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px; max-width: 1200px; margin: 0 auto;}
+.psquare{background-color: orange; height: 450px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; padding: 10px; box-shadow: 2px 2px 10px orange; transition: transform 0.3s ease; border-radius: 20px}
+.psquare:hover {transform: scale(1.05);}
 
 
-.project{
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px; max-width: 1200px; margin: 0 auto;
+.contact-section {
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.psquare{
-    background-color: orange; height: 450px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; padding: 10px; box-shadow: 2px 2px 10px orange; transition: transform 0.3s ease; border-radius: 20px
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.psquare:hover {
-    transform: scale(1.05);
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section input,
+.contact-section textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-section button {
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-section button:hover {
+    background-color: #ff9800;
 }
